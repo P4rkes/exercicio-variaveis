@@ -49,6 +49,11 @@ console.log("RESPOSTAS DO SISTEMA:", "JDM é o melhor estilo de carro?", jdmR, "
 
 // exercicio variaveis a e b
 
-let a;
-let b;
+let a = 10;
+let b = 25;
 let c;
+c=a;
+a=b;
+b=c;
+ console.log(a, b, c,);
+
